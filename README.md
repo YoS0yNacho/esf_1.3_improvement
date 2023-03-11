@@ -1,4 +1,4 @@
-Improvements for Earth's Special Forces Open Beta (1.3) (linux server only)
+## Improvements for Earth's Special Forces Open Beta (1.3) (linux server only)
 ## Changes:
 *Removed xml validation for classes and weapons (you can add new files or modify them).
 *Rebalanced classes to be more similar to esf 1.2.3/evm ( health/speed/teleport range).
