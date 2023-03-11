@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Guldo</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Lock>true</Lock>
+  <Levels>
+    <Level>
+      <Name>Normal</Name>
+      <Description i:nil="true" />
+      <PlayerModel>guldo</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>1000000</PowerLevel>
+      <Health>80</Health>
+      <Speed>240</Speed>
+      <SwoopSpeed>1300</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 100 100 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/guldo/mTaunt1.wav|class/guldo/mTaunt2.wav|class/guldo/mTaunt3.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/guldo/pDeath.wav|class/guldo/pDeath2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/guldo/pPain1.wav|class/guldo/pPain2.wav|class/guldo/pPain3.wav|class/guldo/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/guldo/mIntro1.wav|class/guldo/mIntro2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Freeze.Charge</Name>
+          <File>class/guldo/wcFreeze.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Charge</Name>
+          <File>class/guldo/wcGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Freeze.Fire</Name>
+          <File>class/guldo/wfFreeze.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/guldo/wfGeneric.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Buddy</Modus>
+          <Class>Ginyu</Class>
+          <Level>Ginyu</Level>
+        </Transformation>
+        <Transformation>
+          <Modus>Buddy</Modus>
+          <Class>Jeice</Class>
+          <Level>Normal</Level>
+          <PowerLevel>4000000</PowerLevel>
+        </Transformation>
+        <Transformation>
+          <Modus>Buddy</Modus>
+          <Class>Burter</Class>
+          <Level>Normal</Level>
+          <PowerLevel>6000000</PowerLevel>
+        </Transformation>
+        <Transformation>
+          <Modus>Buddy</Modus>
+          <Class>Recoom</Class>
+          <Level>Normal</Level>
+          <PowerLevel>8000000</PowerLevel>
+        </Transformation>
+      </Transformations>
+    </Level>
+  </Levels>
+</ClassExtension>

@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Buu</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>Fat Buu</Name>
+      <Description>Fat Buu is a creation of Bibidi who sealed Buu up into a ball and brought the ball to Earth. The demon was eventually released by the great wizard Barbidi.</Description>
+      <PlayerModel>fatbuu</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>800000</PowerLevel>
+      <Health>160</Health>
+      <Speed>180</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>2</AuraSkin>
+      <AuraColor>255 120 50 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Mouthblast</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Candybeam</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Regeneration</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Purple</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/buu/fatbuu/pPain1.wav|class/buu/fatbuu/pPain2.wav|class/buu/fatbuu/pPain3.wav|class/buu/fatbuu/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/buu/fatbuu/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>CandyEat.Action</Name>
+          <File>class/buu/fatbuu/waCandyEat.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Mouthblast.Charge</Name>
+          <File>class/buu/fatbuu/wcMouthblast.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/buu/fatbuu/mIntro1.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/buu/fatbuu/mTaunt1.wav|class/buu/fatbuu/mTaunt2.wav|class/buu/fatbuu/mTaunt3.wav|class/buu/fatbuu/mTaunt4.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Buu</Class>
+          <Level>Evil Buu</Level>
+          <PowerLevel>1900000</PowerLevel>
+          <PowerLevelGain>1000000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Evil Buu</Name>
+      <Description>Evil Buu is the part from Fatbuu that is evil and splits off.</Description>
+      <PlayerModel>evilbuu</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>180</Health>
+      <Speed>260</Speed>
+      <SwoopSpeed>1320</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>2</AuraSkin>
+      <AuraColor>255 120 50 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Mouthblast</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Candybeam</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Regeneration</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Purple</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/buu/evilbuu/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/buu/evilbuu/pPain1.wav|class/buu/evilbuu/pPain2.wav|class/buu/evilbuu/pPain3.wav|class/buu/evilbuu/pPain4.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Buu</Class>
+          <Level>Super Buu</Level>
+          <PowerLevel>5250000</PowerLevel>
+          <PowerLevelGain>2500000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Super Buu</Name>
+      <Description>When Evil Buu absorbed Fat Buu, he transforms into the Super Buu. Super Buu is just Fat Buu but with Evil Buu as the dominant character, however he’s a powerful fighter and has the genocide attack.</Description>
+      <PlayerModel>superbuu</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>200</Health>
+      <Speed>290</Speed>
+      <SwoopSpeed>1340</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>2</AuraSkin>
+      <AuraColor>255 120 50 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Mouthblast</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Candybeam</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Regeneration</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Genocide</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Purple</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/buu/superbuu/mTaunt1.wav|class/buu/superbuu/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/buu/superbuu/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/buu/superbuu/pPain1.wav|class/buu/superbuu/pPain2.wav|class/buu/superbuu/pPain3.wav|class/buu/superbuu/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>CandyEat.Action</Name>
+          <File>class/buu/superbuu/waCandyEat.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genocide.Charge</Name>
+          <File>class/buu/superbuu/wcGenocide.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Mouthblast.Charge</Name>
+          <File>class/buu/superbuu/wcMouthblast.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Mouthblast.Fire</Name>
+          <File>class/buu/superbuu/wfMouthblast.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/buu/superbuu/mIntro1.wav|class/buu/superbuu/mIntro2.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Buu</Class>
+          <Level>Kid Buu</Level>
+          <PowerLevel>10000000</PowerLevel>
+          <PowerLevelGain>5000000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Kid Buu</Name>
+      <Description>Kid Buu is the transformation of Super Buu and is in fact THE original Buu. He is also the last of the Buu transformations.</Description>
+      <PlayerModel>kidbuu</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>215</Health>
+      <Speed>325</Speed>
+      <SwoopSpeed>1360</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>2</AuraSkin>
+      <AuraColor>255 120 50 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Mouthblast</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Candybeam</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Regeneration</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Genocide</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Purple</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/buu/kidbuu/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/buu/kidbuu/pPain1.wav|class/buu/kidbuu/pPain2.wav|class/buu/kidbuu/pPain3.wav|class/buu/kidbuu/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Candyeat.Action</Name>
+          <File>class/buu/kidbuu/waCandyeat.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Deathball.Charge</Name>
+          <File>class/buu/kidbuu/wcDeathball.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Deathball.Fire</Name>
+          <File>class/buu/kidbuu/wfDeathball.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/buu/kidbuu/mIntro1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations />
+    </Level>
+  </Levels>
+</ClassExtension>

@@ -1,0 +1,16 @@
+//  Earth Special Forces Game Info file
+game "ESF Open Beta final"
+url_info "http://www.esforces.com"
+url_dl "http://www.esforces.com"
+developer "ESF Team"
+version ""
+icon "esf"
+size "350000000"							
+svonly "0"
+cldll "0"
+type "multiplayer_only"
+nomodels "1"
+gamedll "dlls\hl.dll"
+gamedll_linux "dlls/hl.so"
+//gamedll_linux addons/metamod/metamod.so
+crcclientdll "1"

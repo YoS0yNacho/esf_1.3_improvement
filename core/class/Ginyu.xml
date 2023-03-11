@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Ginyu</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>Ginyu</Name>
+      <Description i:nil="true" />
+      <PlayerModel>ginyu</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>1000000</PowerLevel>
+      <Health>110</Health>
+      <Speed>240</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>2</AuraSkin>
+      <AuraColor>255 110 50 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Purplecomet</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Bodychange</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/ginyu/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/ginyu/mTaunt1.wav|class/ginyu/mTaunt2.wav|class/ginyu/mTaunt3.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/ginyu/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/ginyu/pPain1.wav|class/ginyu/pPain2.wav|class/ginyu/pPain3.wav|class/ginyu/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Bodychange.Charge</Name>
+          <File>class/ginyu/wcBodychange.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Purplecomet.Charge</Name>
+          <File>class/ginyu/wcPurpleattack.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Bodychange.Fire</Name>
+          <File>class/ginyu/wfBodychange.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/ginyu/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Purplecomet.Fire</Name>
+          <File>class/ginyu/wfPurpleattack.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/ginyu/mIntro1.wav|class/ginyu/mIntro2.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Buddy</Modus>
+          <Class>Guldo</Class>
+          <Level>Normal</Level>
+          <PowerLevel>2000000</PowerLevel>
+        </Transformation>
+        <Transformation>
+          <Modus>Buddy</Modus>
+          <Class>Jeice</Class>
+          <Level>Normal</Level>
+          <PowerLevel>4000000</PowerLevel>
+        </Transformation>
+        <Transformation>
+          <Modus>Buddy</Modus>
+          <Class>Burter</Class>
+          <Level>Normal</Level>
+          <PowerLevel>6000000</PowerLevel>
+        </Transformation>
+        <Transformation>
+          <Modus>Buddy</Modus>
+          <Class>Recoom</Class>
+          <Level>Normal</Level>
+          <PowerLevel>8000000</PowerLevel>
+        </Transformation>
+      </Transformations>
+    </Level>
+  </Levels>
+</ClassExtension>

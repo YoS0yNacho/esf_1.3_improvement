@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Cell</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>Cell</Name>
+      <Description i:nil="true" />
+      <PlayerModel>cell</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>900000</PowerLevel>
+      <Health>120</Health>
+      <Speed>216</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>6</AuraSkin>
+      <AuraColor>255 60 80 20</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Green</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Solarflare</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Specialbeamcannon</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Disc.Friezadisc</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/cell/cell/mTaunt1.wav|class/cell/cell/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/cell/cell/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/cell/cell/pPain1.wav|class/cell/cell/pPain2.wav|class/cell/cell/pPain3.wav|class/cell/cell/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/cell/cell/mIntro1.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/cell/cell/wcKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/cell/cell/wfKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Solarflare.Fire</Name>
+          <File>class/cell/cell/wfSolarflare.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/cell/cell/wfGeneric.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Cell</Class>
+          <Level>Imperfect Cell</Level>
+          <PowerLevel>1900000</PowerLevel>
+          <PowerLevelGain>1500000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Imperfect Cell</Name>
+      <Description i:nil="true" />
+      <PlayerModel>cell2</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>140</Health>
+      <Speed>290</Speed>
+      <SwoopSpeed>1290</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 100 100 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Green</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Solarflare</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Gallitgun</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Disc.Friezadisc</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Specialbeamcannon</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/cell/imperfect/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/cell/imperfect/pPain1.wav|class/cell/imperfect/pPain2.wav|class/cell/imperfect/pPain3.wav|class/cell/imperfect/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Gallitgun.Charge</Name>
+          <File>class/cell/imperfect/wcGallitgun.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Gallitgun.Fire</Name>
+          <File>class/cell/imperfect/wfGallitgun.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Solarflare.Fire</Name>
+          <File>class/cell/imperfect/wfSolarflare.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/cell/imperfect/mIntro1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Cell</Class>
+          <Level>Perfect Cell</Level>
+          <PowerLevel>5250000</PowerLevel>
+          <PowerLevelGain>2500000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Perfect Cell</Name>
+      <Description i:nil="true" />
+      <PlayerModel>cell3</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>190</Health>
+      <Speed>350</Speed>
+      <SwoopSpeed>1315</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>4</AuraSkin>
+      <AuraColor>255 130 130 50</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Solarflare</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods>
+        <Mod>
+          <Key>Body.Lightning</Key>
+          <Value>1</Value>
+        </Mod>
+      </Mods>
+      <Sounds>
+        <Sound>
+          <Name>FootStep</Name>
+          <File>class/cell/perfect/bStep.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/cell/perfect/mTaunt1.wav|class/cell/perfect/mTaunt2.wav|class/cell/perfect/mTaunt3.wav|class/cell/perfect/mTaunt4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/cell/perfect/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/cell/perfect/pPain1.wav|class/cell/perfect/pPain2.wav|class/cell/perfect/pPain3.wav|class/cell/perfect/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/cell/perfect/wcKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/cell/perfect/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/cell/perfect/wfKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Aura</Name>
+          <File>player/aura/ssj2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/cell/perfect/mIntro1.wav|class/cell/perfect/mIntro2.wav|class/cell/perfect/mIntro3.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations />
+    </Level>
+  </Levels>
+</ClassExtension>

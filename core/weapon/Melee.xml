@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WeaponCollection xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Melee</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Weapons>
+    <Weapon>
+      <Name>Melee</Name>
+      <DisplayName>Melee</DisplayName>
+      <Description i:nil="true" />
+      <Entity>weapon_melee</Entity>
+      <Icon>weapon_melee</Icon>
+      <Mods>
+        <Mod>
+          <Key>Slot</Key>
+          <Value>1</Value>
+        </Mod>
+      </Mods>
+    </Weapon>
+    <Weapon>
+      <Name>Sword</Name>
+      <DisplayName>Sword</DisplayName>
+      <Description i:nil="true" />
+      <Entity>weapon_sword</Entity>
+      <Icon>weapon_sword</Icon>
+      <Mods>
+        <Mod>
+          <Key>Slot</Key>
+          <Value>1</Value>
+        </Mod>
+      </Mods>
+    </Weapon>
+  </Weapons>
+</WeaponCollection>

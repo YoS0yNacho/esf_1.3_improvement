@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Krillin</Name>
+  <Author>Skynet\Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>Normal</Name>
+      <Description i:nil="true" />
+      <PlayerModel>krillin</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>600000</PowerLevel>
+      <Health>100</Health>
+      <Speed>230</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 100 100 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Disc.Destructodisc</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Solarflare</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/krillin/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/krillin/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/krillin/pPain1.wav|class/krillin/pPain2.wav|class/krillin/pPain3.wav|class/krillin/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/krillin/wckamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Destructodisc.Fire</Name>
+          <File>class/krillin/wfDestructodisc.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/krillin/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/krillin/wfkamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Scatterbeam.Fire</Name>
+          <File>class/krillin/wfScatterbeam.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Solarflare.Fire</Name>
+          <File>class/krillin/wfsolarflare.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/krillin/mIntro1.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/krillin/mTaunt1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Krillin</Class>
+          <Level>Unlocked Potential</Level>
+          <PowerLevel>2400000</PowerLevel>
+          <PowerLevelGain>1500000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Unlocked Potential</Name>
+      <Description i:nil="true" />
+      <PlayerModel>krillin2</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>150</Health>
+      <Speed>350</Speed>
+      <SwoopSpeed>1350</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 100 100 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Disc.Destructodisc</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Solarflare</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Scatterbeam</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/krillin/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/krillin/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/krillin/pPain1.wav|class/krillin/pPain2.wav|class/krillin/pPain3.wav|class/krillin/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/krillin/wckamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Destructodisc.Fire</Name>
+          <File>class/krillin/wfDestructodisc.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/krillin/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/krillin/wfkamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Scatterbeam.Fire</Name>
+          <File>class/krillin/wfScatterbeam.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Solarflare.Fire</Name>
+          <File>class/krillin/wfsolarflare.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/krillin/mTaunt1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations />
+    </Level>
+  </Levels>
+</ClassExtension>

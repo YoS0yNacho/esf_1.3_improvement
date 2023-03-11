@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Goku</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>Saiyan</Name>
+      <Description>Goku is a Saiyan that was sent to earth when he was still a child. He's DBZ's main character.</Description>
+      <PlayerModel>goku</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>750000</PowerLevel>
+      <Health>110</Health>
+      <Speed>210</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>100</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 100 100 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods>
+            <Mod>
+              <Key>Sprite.StartB</Key>
+              <Value>sprites/wrlbeam1.spr</Value>
+            </Mod>
+            <Mod>
+              <Key>Sprite.FlareB</Key>
+              <Value>sprites/wrlbeam1.spr</Value>
+            </Mod>
+            <Mod>
+              <Key>Size</Key>
+              <Value>100</Value>
+            </Mod>
+          </Mods>
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Spiritbomb</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Solarflare</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods>
+            <Mod>
+              <Key>Size</Key>
+              <Value>150</Value>
+            </Mod>
+          </Mods>
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Kametorpedo</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/goku/wcKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/goku/wfKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/goku/pPain1.wav|class/goku/pPain2.wav|class/goku/pPain3.wav|class/goku/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/goku/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Solarflare.Fire</Name>
+          <File>class/goku/wfSolarflare.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/goku/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Spiritbomb.Prim.Charge</Name>
+          <File>class/goku/wcSpiritbomb.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Spiritbomb.Sec.Charge</Name>
+          <File>class/goku/wcSpiritbomb2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Spiritbomb.Prim.Fire</Name>
+          <File>class/goku/wfSpiritbomb.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Spiritbomb.Sec.Fire</Name>
+          <File>class/goku/wfSpiritbomb.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/goku/mTaunt1.wav|class/goku/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/goku/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro </Name>
+          <File>class/goku/mIntro1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Goku</Class>
+          <Level>Super Saiyan</Level>
+          <PowerLevel>1750000</PowerLevel>
+          <PowerLevelGain>1000000</PowerLevelGain>
+          <!--<Time>1</Time>-->  
+          <FxScript></FxScript>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Super Saiyan</Name>
+      <Description>Goku was the first saiyan to turn super saiyan on Namek when he fought frieza.</Description>
+      <PlayerModel>ssjgoku</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>120</Health>
+      <Speed>280</Speed>
+      <SwoopSpeed>1280</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>4</AuraSkin>
+      <AuraColor>255 160 120 50</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Solarflare</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Kametorpedo</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods>
+      </Mods>
+      <Sounds>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/goku/wcKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/goku/wfKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/goku/pPain1.wav|class/goku/pPain2.wav|class/goku/pPain3.wav|class/goku/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/goku/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Solarflare.Fire</Name>
+          <File>class/goku/wfSolarflare.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/goku/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/goku/mTaunt1.wav|class/goku/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/goku/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kametorpedo.Fire</Name>
+          <File>class/goku/wfKametorpedo.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Aura</Name>
+          <File>player/aura/ssj.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Descend</Modus>
+          <Class>Goku</Class>
+          <Level>Saiyan</Level>
+        </Transformation>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Goku</Class>
+          <Level>Super Saiyan II</Level>
+          <PowerLevel>4750000</PowerLevel>
+          <PowerLevelGain>3000000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Super Saiyan II</Name>
+      <Description i:nil="true" />
+      <PlayerModel>ssj2goku</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>190</Health>
+      <Speed>310</Speed>
+      <SwoopSpeed>1320</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>4</AuraSkin>
+      <AuraColor>255 160 120 50</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Solarflare</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Kametorpedo</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods>
+        <Mod>
+          <Key>Body.Lightning</Key>
+          <Value>1</Value>
+        </Mod>
+      </Mods>
+      <Sounds>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/goku/wcKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/goku/wfKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/goku/pPain1.wav|class/goku/pPain2.wav|class/goku/pPain3.wav|class/goku/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/goku/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Solarflare.Fire</Name>
+          <File>class/goku/wfSolarflare.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/goku/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/goku/mTaunt1.wav|class/goku/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/goku/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kametorpedo.Fire</Name>
+          <File>class/goku/wfKametorpedo.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Aura</Name>
+          <File>player/aura/ssj2.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Descend</Modus>
+          <Class>Goku</Class>
+          <Level>Super Saiyan</Level>
+        </Transformation>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Goku</Class>
+          <Level>Super Saiyan III</Level>
+          <PowerLevel>10000000</PowerLevel>
+          <PowerLevelGain>6000000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Super Saiyan III</Name>
+      <Description i:nil="true" />
+      <PlayerModel>ssj3goku</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>240</Health>
+      <Speed>340</Speed>
+      <SwoopSpeed>1350</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>4</AuraSkin>
+      <AuraColor>255 160 150 60</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Solarflare</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Kametorpedo</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods>
+        <Mod>
+          <Key>Body.Lightning</Key>
+          <Value>1</Value>
+        </Mod>
+      </Mods>
+      <Sounds>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/goku/wcKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/goku/wfKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/goku/pPain1.wav|class/goku/pPain2.wav|class/goku/pPain3.wav|class/goku/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/goku/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Solarflare.Fire</Name>
+          <File>class/goku/wfSolarflare.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/goku/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/goku/mTaunt1.wav|class/goku/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Powerup </Name>
+          <File>class/goku/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kametorpedo.Fire</Name>
+          <File>class/goku/wfKametorpedo.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Aura</Name>
+          <File>player/aura/ssj2.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Descend</Modus>
+          <Class>Goku</Class>
+          <Level>Super Saiyan II</Level>
+        </Transformation>
+      </Transformations>
+    </Level>
+  </Levels>
+</ClassExtension>

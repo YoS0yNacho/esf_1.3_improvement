@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Trunks</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>Saiyan</Name>
+      <Description i:nil="true" />
+      <PlayerModel>trunks</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>700000</PowerLevel>
+      <Health>110</Health>
+      <Speed>205</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 100 100 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Sword</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Burningattack</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/trunks/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/trunks/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/trunks/pPain1.wav|class/trunks/pPain2.wav|class/trunks/pPain3.wav|class/trunks/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Burningattack.Charge</Name>
+          <File>class/trunks/wcBurningattack.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/trunks/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/trunks/mIntro1.wav|class/trunks/mIntro2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/trunks/mTaunt1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Trunks</Class>
+          <Level>Super Saiyan</Level>
+          <PowerLevel>1600000</PowerLevel>
+          <PowerLevelGain>1000000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Super Saiyan</Name>
+      <Description i:nil="true" />
+      <PlayerModel>ssjtrunks</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>130</Health>
+      <Speed>260</Speed>
+      <SwoopSpeed>1250</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>4</AuraSkin>
+      <AuraColor>255 180 150 50</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Sword</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Burningattack</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Finishingbuster</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/trunks/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/trunks/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/trunks/pPain1.wav|class/trunks/pPain2.wav|class/trunks/pPain3.wav|class/trunks/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Burningattack.Charge</Name>
+          <File>class/trunks/wcBurningattack.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Finishingbuster.Charge</Name>
+          <File>class/trunks/wcFinishingbuster.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Finishingbuster.Fire</Name>
+          <File>class/trunks/wfFinishingbuster.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/trunks/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Aura</Name>
+          <File>player/aura/ssj.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/trunks/mTaunt1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Descend</Modus>
+          <Class>Trunks</Class>
+          <Level>Saiyan</Level>
+        </Transformation>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Trunks</Class>
+          <Level>Ultra Super Saiyan</Level>
+          <PowerLevel>4250000</PowerLevel>
+          <PowerLevelGain>3500000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Ultra Super Saiyan</Name>
+      <Description i:nil="true" />
+      <PlayerModel>ussjtrunks</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>160</Health>
+      <Speed>230</Speed>
+      <SwoopSpeed>1260</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>4</AuraSkin>
+      <AuraColor>255 150 160 60</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Sword</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Burningattack</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Finishingbuster</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods>
+        <Mod>
+          <Key>Body.Lightning</Key>
+          <Value>1</Value>
+        </Mod>
+      </Mods>
+      <Sounds>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/trunks/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/trunks/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/trunks/pPain1.wav|class/trunks/pPain2.wav|class/trunks/pPain3.wav|class/trunks/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Burningattack.Charge</Name>
+          <File>class/trunks/wcBurningattack.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Finishingbuster.Charge</Name>
+          <File>class/trunks/wcFinishingbuster.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Flamethrower.Charge</Name>
+          <File>class/trunks/wcFlamethrower.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Finishingbuster.Fire</Name>
+          <File>class/trunks/wfFinishingbuster.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/trunks/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Aura</Name>
+          <File>player/aura/ssj.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/trunks/mTaunt1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Descend</Modus>
+          <Class>Trunks</Class>
+          <Level>Super Saiyan</Level>
+        </Transformation>
+      </Transformations>
+    </Level>
+  </Levels>
+</ClassExtension>

@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Frieza</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>Small Frieza</Name>
+      <Description></Description>
+      <PlayerModel>frieza</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>800000</PowerLevel>
+      <Health>150</Health>
+      <Speed>190</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>2</AuraSkin>
+      <AuraColor>255 100 50 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Deathball</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Laser.Fingerlaser</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Telekinesis</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Disc.Friezadisc</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/frieza/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/frieza/mTaunt1.wav|class/frieza/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/frieza/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/frieza/pPain1.wav|class/frieza/pPain2.wav|class/frieza/pPain3.wav|class/frieza/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Telekinesis.Charge</Name>
+          <File>class/frieza/wcTelekinesis.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Deathball.Fire</Name>
+          <File>class/frieza/wfDeathball.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/frieza/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Telekinesis.Fire</Name>
+          <File>class/frieza/wfTelekinesis.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/frieza/mIntro1.wav|class/frieza/mIntro2.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Frieza</Class>
+          <Level>Big Frieza</Level>
+          <PowerLevel>1800000</PowerLevel>
+          <PowerLevelGain>500000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Big Frieza</Name>
+      <Description i:nil="true" />
+      <PlayerModel>frieza2</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>170</Health>
+      <Speed>275</Speed>
+      <SwoopSpeed>1275</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>2</AuraSkin>
+      <AuraColor>255 100 50 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Deathball</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Laser.Fingerlaser</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Telekinesis</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Disc.Friezadisc</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/frieza/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/frieza/mTaunt1.wav|class/frieza/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/frieza/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/frieza/pPain1.wav|class/frieza/pPain2.wav|class/frieza/pPain3.wav|class/frieza/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Telekinesis.Charge</Name>
+          <File>class/frieza/wcTelekinesis.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Deathball.Fire</Name>
+          <File>class/frieza/wfDeathball.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/frieza/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Telekinesis.Fire</Name>
+          <File>class/frieza/wfTelekinesis.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Frieza</Class>
+          <Level>Alien frieza</Level>
+          <PowerLevel>4750000</PowerLevel>
+          <PowerLevelGain>1500000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Alien frieza</Name>
+      <Description i:nil="true" />
+      <PlayerModel>frieza3</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>210</Health>
+      <Speed>290</Speed>
+      <SwoopSpeed>1300</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>2</AuraSkin>
+      <AuraColor>255 100 50 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Deathball</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Laser.Fingerlaser</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Telekinesis</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Disc.Friezadisc</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/frieza/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/frieza/mTaunt1.wav|class/frieza/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/frieza/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/frieza/pPain1.wav|class/frieza/pPain2.wav|class/frieza/pPain3.wav|class/frieza/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Telekinesis.Charge</Name>
+          <File>class/frieza/wcTelekinesis.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Deathball.Fire</Name>
+          <File>class/frieza/wfDeathball.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/frieza/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Telekinesis.Fire</Name>
+          <File>class/frieza/wfTelekinesis.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Frieza</Class>
+          <Level>Perfect Frieza</Level>
+          <PowerLevel>10000000</PowerLevel>
+          <PowerLevelGain>5000000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Perfect Frieza</Name>
+      <Description i:nil="true" />
+      <PlayerModel>frieza4</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>230</Health>
+      <Speed>310</Speed>
+      <SwoopSpeed>1320</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>2</AuraSkin>
+      <AuraColor>255 100 50 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Deathball</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Purple</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Laser.Fingerlaser</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Telekinesis</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Disc.Friezadisc</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/frieza/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/frieza/mTaunt1.wav|class/frieza/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/frieza/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/frieza/pPain1.wav|class/frieza/pPain2.wav|class/frieza/pPain3.wav|class/frieza/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Telekinesis.Charge</Name>
+          <File>class/frieza/wcTelekinesis.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Deathball.Fire</Name>
+          <File>class/frieza/wfDeathball.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Genericbeam.Fire</Name>
+          <File>class/frieza/wfGeneric.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Telekinesis.Fire</Name>
+          <File>class/frieza/wfTelekinesis.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations />
+    </Level>
+  </Levels>
+</ClassExtension>

@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Gohan</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>Saiyan</Name>
+      <Description i:nil="true" />
+      <PlayerModel>gohan</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>600000</PowerLevel>
+      <Health>100</Health>
+      <Speed>190</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 100 100 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Masenko</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/gohan/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/gohan/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/gohan/pPain1.wav|class/gohan/pPain2.wav|class/gohan/pPain3.wav|class/gohan/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/gohan/wcKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Charge</Name>
+          <File>class/gohan/wcMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Shield.Charge</Name>
+          <File>class/gohan/wcShield.wav</File>
+        </Sound>
+        <Sound>
+          <Name>SuperKamehameha.Charge</Name>
+          <File>class/gohan/wcSuperKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/gohan/wfKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Fire</Name>
+          <File>class/gohan/wfMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Shield.Fire</Name>
+          <File>class/gohan/wfShield.wav</File>
+        </Sound>
+        <Sound>
+          <Name>SuperKamehameha.Fire</Name>
+          <File>class/gohan/wfSuperKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/gohan/mIntro1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Gohan</Class>
+          <Level>Super Saiyan</Level>
+          <PowerLevel>1400000</PowerLevel>
+          <PowerLevelGain>1500000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Super Saiyan</Name>
+      <Description i:nil="true" />
+      <PlayerModel>ssjgohan</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>120</Health>
+      <Speed>275</Speed>
+      <SwoopSpeed>1280</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>4</AuraSkin>
+      <AuraColor>255 160 150 20</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Masenko</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/gohan/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/gohan/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/gohan/pPain1.wav|class/gohan/pPain2.wav|class/gohan/pPain3.wav|class/gohan/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/gohan/wcKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Charge</Name>
+          <File>class/gohan/wcMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Shield.Charge</Name>
+          <File>class/gohan/wcShield.wav</File>
+        </Sound>
+        <Sound>
+          <Name>SuperKamehameha.Charge</Name>
+          <File>class/gohan/wcSuperKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/gohan/wfKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Fire</Name>
+          <File>class/gohan/wfMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Shield.Fire</Name>
+          <File>class/gohan/wfShield.wav</File>
+        </Sound>
+        <Sound>
+          <Name>SuperKamehameha.Fire</Name>
+          <File>class/gohan/wfSuperKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Aura</Name>
+          <File>player/aura/ssj.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Gohan</Class>
+          <Level>Super Saiyan II</Level>
+          <PowerLevel>5400000</PowerLevel>
+          <PowerLevelGain>4000000</PowerLevelGain>
+        </Transformation>
+        <Transformation>
+          <Modus>Descend</Modus>
+          <Class>Gohan</Class>
+          <Level>Saiyan</Level>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Super Saiyan II</Name>
+      <Description i:nil="true" />
+      <PlayerModel>ssj2gohan</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>200</Health>
+      <Speed>300</Speed>
+      <SwoopSpeed>1320</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>4</AuraSkin>
+      <AuraColor>255 170 150 60</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Masenko</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Kamehameha</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods>
+        <Mod>
+          <Key>Body.Lightning</Key>
+          <Value>1</Value>
+        </Mod>
+      </Mods>
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/gohan/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/gohan/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/gohan/pPain1.wav|class/gohan/pPain2.wav|class/gohan/pPain3.wav|class/gohan/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Charge</Name>
+          <File>class/gohan/wcKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Charge</Name>
+          <File>class/gohan/wcMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Shield.Charge</Name>
+          <File>class/gohan/wcShield.wav</File>
+        </Sound>
+        <Sound>
+          <Name>SuperKamehameha.Charge</Name>
+          <File>class/gohan/wcSuperKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Kamehameha.Fire</Name>
+          <File>class/gohan/wfKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Fire</Name>
+          <File>class/gohan/wfMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Shield.Fire</Name>
+          <File>class/gohan/wfShield.wav</File>
+        </Sound>
+        <Sound>
+          <Name>SuperKamehameha.Fire</Name>
+          <File>class/gohan/wfSuperKamehameha.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Aura</Name>
+          <File>player/aura/ssj2.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Descend</Modus>
+          <Class>Gohan</Class>
+          <Level>Super Saiyan</Level>
+        </Transformation>
+      </Transformations>
+    </Level>
+  </Levels>
+</ClassExtension>

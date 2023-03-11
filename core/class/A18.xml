@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>A18</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>A18</Name>
+      <Description>Android 18 from the present timeline is an cybernetic human who was modified by Dr. Gero. She is not entirely an android, however contructed from a human base.</Description>
+      <PlayerModel>a18</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>1100000</PowerLevel>
+      <Health>150</Health>
+      <Speed>250</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 0 0 0</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Disc.Destructodisc</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.A18Ball</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods>
+        <Mod>
+          <Key>Stamina.Efficiency</Key>
+          <Value>1</Value>
+        </Mod>
+        <Mod>
+          <Key>Ki.Rate</Key>
+          <Value>1</Value>
+        </Mod>
+        <Mod>
+          <Key>Ki.PowerUp</Key>
+          <Value>70</Value>
+        </Mod>
+        <Mod>
+          <Key>Ki.Swoop</Key>
+          <Value>15</Value>
+        </Mod>
+        <Mod>
+          <Key>Ki.Teleport</Key>
+          <Value>100</Value>
+        </Mod>
+        <Mod>
+          <Key>Ki.Jump</Key>
+          <Value>20</Value>
+        </Mod>
+        <Mod>
+          <Key>Ki.BlockStruggle</Key>
+          <Value>30</Value>
+        </Mod>
+        <Mod>
+          <Key>Ki.SwoopStart</Key>
+          <Value>30</Value>
+        </Mod>
+      </Mods>
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/a18/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/a18/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/a18/pPain1.wav|class/a18/pPain2.wav|class/a18/pPain3.wav|class/a18/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/a18/mTaunt1.wav|class/a18/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Destructodisc.Charge</Name>
+          <File>class/a18/wcDestructodisc.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Destructodisc.Fire</Name>
+          <File>class/a18/wfDestructodisc.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Shield.Fire</Name>
+          <File>class/a18/wfShield.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/a18/mIntro1.wav|class/a18/mIntro2.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations />
+    </Level>
+  </Levels>
+</ClassExtension>

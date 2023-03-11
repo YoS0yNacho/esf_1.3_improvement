@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassExtension xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.esforces.com">
+  <Name>Piccolo</Name>
+  <Author>Raven</Author>
+  <Description i:nil="true" />
+  <Revision>0</Revision>
+  <Levels>
+    <Level>
+      <Name>Namek</Name>
+      <Description i:nil="true" />
+      <PlayerModel>piccolo</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <PowerLevel>1000000</PowerLevel>
+      <Health>120</Health>
+      <Speed>220</Speed>
+      <SwoopSpeed>1216</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 100 100 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Masenko</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Specialbeamcannon</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Scattershot</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Laser.Eyelaser</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/piccolo/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/piccolo/mTaunt1.wav|class/piccolo/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/piccolo/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/piccolo/pPain1.wav|class/piccolo/pPain2.wav|class/piccolo/pPain3.wav|class/piccolo/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Charge</Name>
+          <File>class/piccolo/wcMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Fire</Name>
+          <File>class/piccolo/wfMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Specialbeamcannon.Fire</Name>
+          <File>class/piccolo/wfSpecialbeamcannon.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Intro</Name>
+          <File>class/piccolo/mIntro1.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations>
+        <Transformation>
+          <Modus>Ascend</Modus>
+          <Class>Piccolo</Class>
+          <Level>Fused with Nail</Level>
+          <PowerLevel>2250000</PowerLevel>
+          <PowerLevelGain>2000000</PowerLevelGain>
+        </Transformation>
+      </Transformations>
+    </Level>
+    <Level>
+      <Name>Fused with Nail</Name>
+      <Description i:nil="true" />
+      <PlayerModel>piccolo2</PlayerModel>
+      <PlayerModelSlices>0</PlayerModelSlices>
+      <Health>140</Health>
+      <Speed>300</Speed>
+      <SwoopSpeed>1250</SwoopSpeed>
+      <Attack>0</Attack>
+      <Defense>0</Defense>
+      <AuraModel>models/aura.mdl</AuraModel>
+      <AuraSkin>0</AuraSkin>
+      <AuraColor>255 100 100 100</AuraColor>
+      <TeleportRange>400</TeleportRange>
+      <Skills>
+        <Skill>
+          <Name>Weapon.Melee</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Blast.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Ball.Renzoku.Yellow</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Generic.Blue</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Beam.Masenko</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Specialbeamcannon</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Special.Scattershot</Name>
+          <Mods />
+        </Skill>
+        <Skill>
+          <Name>Weapon.Laser.Eyelaser</Name>
+          <Mods />
+        </Skill>
+      </Skills>
+      <Mods />
+      <Sounds>
+        <Sound>
+          <Name>Powerup</Name>
+          <File>class/piccolo/bPowerup.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Taunt</Name>
+          <File>class/piccolo/mTaunt1.wav|class/piccolo/mTaunt2.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Death</Name>
+          <File>class/piccolo/pDeath.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Pain</Name>
+          <File>class/piccolo/pPain1.wav|class/piccolo/pPain2.wav|class/piccolo/pPain3.wav|class/piccolo/pPain4.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Charge</Name>
+          <File>class/piccolo/wcMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Masenko.Fire</Name>
+          <File>class/piccolo/wfMasenko.wav</File>
+        </Sound>
+        <Sound>
+          <Name>Specialbeamcannon.Fire</Name>
+          <File>class/piccolo/wfSpecialbeamcannon.wav</File>
+        </Sound>
+      </Sounds>
+      <Transformations />
+    </Level>
+  </Levels>
+</ClassExtension>
